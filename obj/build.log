@@ -1,0 +1,48 @@
+﻿  Restore completed in 24.63 ms for C:\Users\tjudd\source\repos\tkjudd\AzureMapsAddressAutocomplete_PCF\AzureMapsAutoComplete.pcfproj.
+  Restore completed in 281.95 ms for C:\Users\tjudd\source\repos\tkjudd\AzureMapsAddressAutocomplete_PCF\obj\PowerAppsTools_tkjudd\PowerAppsTools_tkjudd.cdsproj.
+  
+  > pcf-project@1.0.0 build C:\Users\tjudd\source\repos\tkjudd\AzureMapsAddressAutocomplete_PCF
+  > pcf-scripts build "--noColor" "--buildMode" "development" "--outDir" "C:\Users\tjudd\source\repos\tkjudd\AzureMapsAddressAutocomplete_PCF\out\controls" "--buildSource" "MSBuild"
+  
+  [9:25:58] [build] Initializing...
+  [9:25:58] [build] Validating manifest...
+  [9:25:58] [build] Validating control...
+  [9:25:59] [build] Generating manifest types...
+  [9:25:59] [build] Compiling and bundling control...
+  [Webpack stats]:
+  Hash: 5e598d8bff82e738602d
+  Version: webpack 4.28.4
+  Time: 3086ms
+  Built at: 09/04/2019 9:26:02 AM
+      Asset      Size  Chunks             Chunk Names
+  bundle.js  15.5 KiB    main  [emitted]  main
+  Entrypoint main = bundle.js
+  [./AzureMapsAddressAutoComplete/index.ts] 11.1 KiB {main} [built]
+  [9:26:2] [build] Generating build outputs...
+  [9:26:2] [build] Succeeded
+  Running Solution Packager to build package type: Unmanaged bin\Debug\PowerAppsTools_tkjudd.zip
+  SolutionPackger CRM Solution Packaging Tool [Version 9.1.0.8]
+  c 2017 Microsoft Corporation.  All rights reserved
+  
+  
+  Packing C:\Users\tjudd\source\repos\tkjudd\AzureMapsAddressAutocomplete_PCF\obj\PowerAppsTools_tkjudd\obj\Debug\ to bin\Debug\PowerAppsTools_tkjudd.zip
+  
+  Processing Component: Entities
+  Processing Component: Roles
+  Processing Component: Workflows
+  Processing Component: FieldSecurityProfiles
+  Processing Component: Templates
+  Processing Component: EntityMaps
+  Processing Component: EntityRelationships
+  Processing Component: OrganizationSettings
+  Processing Component: optionsets
+  Processing Component: CustomControls
+   - tkjudd.AzureMapsAddressAutoCompletePCF
+  Processing Component: EntityDataProviders
+  
+  Unmanaged Pack complete.
+  
+  Solution: bin\Debug\PowerAppsTools_tkjudd.zip generated.
+  Solution Package Type: Unmanaged generated.
+  Solution Packager log path: bin\Debug\SolutionPackager.log.
+  Solution Packager error level: Info.

@@ -8,7 +8,7 @@
   <Import Project="$(PowerAppsTargetsPath)\Microsoft.PowerApps.VisualStudio.Solution.props" Condition="Exists('$(PowerAppsTargetsPath)\Microsoft.PowerApps.VisualStudio.Solution.props')" />
 
   <PropertyGroup>
-    <ProjectGuid>a4cafb3a-2fbe-4bf2-ad38-70f80e85966a</ProjectGuid>
+    <ProjectGuid>10d4ff2d-945c-48b5-8736-6f75fd428115</ProjectGuid>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <!--Remove TargetFramework when this is available in 16.1-->
     <TargetFramework>net462</TargetFramework>
@@ -39,14 +39,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\GoogleAddressAutocomplete_PCF.pcfproj">
-      <Project>7ee7e833-d0ce-40e6-939d-9edc530d58d3</Project>
-      <Name>GoogleAddressAutocomplete_PCF</Name>
-      <Targets>Build</Targets>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <OutputItemType>Content</OutputItemType>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </ProjectReference>
+    <ProjectReference Include="..\..\AzureMapsAutoComplete.pcfproj" />
   </ItemGroup>
 
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />

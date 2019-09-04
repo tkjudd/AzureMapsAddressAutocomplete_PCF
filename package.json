@@ -9,11 +9,13 @@
     "start": "pcf-scripts start"
   },
   "dependencies": {
-    "@types/googlemaps": "^3.37.0",
+    "@types/jqueryui": "^1.12.7",
     "@types/node": "^10.12.18",
-    "@types/powerapps-component-framework": "1.1.0"
+    "@types/powerapps-component-framework": "1.1.0",
+    "@types/xrm": "^9.0.14"
   },
   "devDependencies": {
+    "@types/jquery": "^3.3.31",
     "pcf-scripts": "^0",
     "pcf-start": "^0"
   }

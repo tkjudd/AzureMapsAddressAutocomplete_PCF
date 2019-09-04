@@ -1,0 +1,76 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.2": {
+      "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Pcf.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
+      "sha512": "w/nu1AVrY7ZsYrxaqFEVKXnNCUPJiTZ+p3DqBKx0jy10YtNTYuzdc2Nz1iiF70bgXuWGn7xo0LTcVA99gWXYsQ==",
+      "type": "package",
+      "path": "microsoft.powerapps.msbuild.pcf/0.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "3rdPartyNotice.txt",
+        "LICENSE.txt",
+        "build/Microsoft.PowerApps.MSBuild.Pcf.props",
+        "build/Microsoft.PowerApps.MSBuild.Pcf.targets",
+        "microsoft.powerapps.msbuild.pcf.0.4.3.nupkg.sha512",
+        "microsoft.powerapps.msbuild.pcf.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.2": [
+      "Microsoft.PowerApps.MSBuild.Pcf >= 0.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tjudd\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tjudd\\source\\repos\\tkjudd\\AzureMapsAddressAutocomplete_PCF\\AzureMapsAutoComplete.pcfproj",
+      "projectName": "AzureMapsAutoComplete",
+      "projectPath": "C:\\Users\\tjudd\\source\\repos\\tkjudd\\AzureMapsAddressAutocomplete_PCF\\AzureMapsAutoComplete.pcfproj",
+      "packagesPath": "C:\\Users\\tjudd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tjudd\\source\\repos\\tkjudd\\AzureMapsAddressAutocomplete_PCF\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\tjudd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net462"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net462": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net462": {
+        "dependencies": {
+          "Microsoft.PowerApps.MSBuild.Pcf": {
+            "target": "Package",
+            "version": "[0.*, )"
+          }
+        }
+      }
+    }
+  }
+}

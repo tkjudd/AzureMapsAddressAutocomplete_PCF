@@ -8,8 +8,8 @@
   <Import Project="$(PowerAppsTargetsPath)\Microsoft.PowerApps.VisualStudio.Pcf.props" Condition="Exists('$(PowerAppsTargetsPath)\Microsoft.PowerApps.VisualStudio.Pcf.props')"/>
   
   <PropertyGroup>
-    <Name>GoogleAddressAutocomplete_PCF</Name>
-    <ProjectGuid>7ee7e833-d0ce-40e6-939d-9edc530d58d3</ProjectGuid>
+    <Name>AzureMapsAutoComplete</Name>
+    <ProjectGuid>8f56d611-aa8f-4a48-9763-b94558cb9b64</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
   </PropertyGroup>
 

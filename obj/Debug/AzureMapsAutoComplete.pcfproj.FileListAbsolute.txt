@@ -1,0 +1,2 @@
+C:\Users\tjudd\source\repos\tkjudd\AzureMapsAddressAutocomplete_PCF\obj\Debug\AzureMapsAutoComplete.pcfprojAssemblyReference.cache
+C:\Users\tjudd\source\repos\tkjudd\AzureMapsAddressAutocomplete_PCF\obj\Debug\AzureMapsAutoComplete.pcfproj.CoreCompileInputs.cache
